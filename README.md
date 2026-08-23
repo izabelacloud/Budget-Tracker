@@ -20,6 +20,8 @@ The Budget Tracker is an application that allows to track the budget and leverag
 
 [https://budget-tracker-web-production.up.railway.app](https://budget-tracker-web-production.up.railway.app)
 
+![Budget Tracker homepage](https://github.com/izabelacloud/Budget-Tracker/blob/master/assets/homepage.png?raw=true)
+
 ## User Story
 
 AS AN avid traveler<br />
