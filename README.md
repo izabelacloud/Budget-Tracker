@@ -18,7 +18,7 @@ The Budget Tracker is an application that allows to track the budget and leverag
 
 ## Deployed Application
 
-Not yet deployed. This app requires a MongoDB-backed host (e.g. Railway, Render) rather than a static host like GitHub Pages.
+[https://budget-tracker-web-production.up.railway.app](https://budget-tracker-web-production.up.railway.app)
 
 ## User Story
 
@@ -56,4 +56,4 @@ Izabela Petrovicova
 
 ## Questions
 
-If you have any questions about the repository, contact me directly at i.petrovicova@gmail.com. You can find more of my work at [github.com/izabelacloud](https://github.com/izabelacloud).
+If you have any questions about the repository, contact me directly at [i.petrovicova@gmail.com](mailto:i.petrovicova@gmail.com). You can find more of my work at [github.com/izabelacloud](https://github.com/izabelacloud).
