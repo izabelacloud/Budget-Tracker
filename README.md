@@ -4,24 +4,23 @@
 
 ## Description
 
-The Budget Tracker is an application that allows to track the budget and leverages offline access and functionality where the user will be able to add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total should be updated when they're brought back online. This application is using  MongoDB / NoSQL along with Express.js and Mongoose.
+The Budget Tracker is an application that allows to track the budget and leverages offline access and functionality where the user will be able to add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total should be updated when they're brought back online. This application is using MongoDB / NoSQL along with Express.js and Mongoose.
 
 ## Table of Contents
 
 * [Deployed Application](#deployed-application)
 * [User Story](#user-story)
 * [Usage](#usage)
+* [Local Setup](#local-setup)
 * [License](#license)
 * [Contributing](#contributing)
 * [Questions](#questions)
 
+## Deployed Application
 
-## Deployed Application 
+Not yet deployed. This app requires a MongoDB-backed host (e.g. Railway, Render) rather than a static host like GitHub Pages.
 
-[TBD](TBD)<br />
-
-
-## User Story 
+## User Story
 
 AS AN avid traveler<br />
 I WANT to be able to track my withdrawals and deposits with or without a data/internet connection<br />
@@ -33,10 +32,19 @@ THEN they will receive a notification that they have added an expense or deposit
 WHEN the user reestablishes an internet connection<br />
 THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated<br />
 
-
 ## Usage
 
-This application allows to track the budget and leverages offline access and functionality where the user will be able to add expenses and deposits to their budget with or without a connection. 
+This application allows to track the budget and leverages offline access and functionality where the user will be able to add expenses and deposits to their budget with or without a connection.
+
+## Local Setup
+
+This app requires Node.js 18+ and a MongoDB database.
+
+1. Install dependencies: `npm install`
+2. Start MongoDB locally (e.g. `brew services start mongodb/brew/mongodb-community`)
+3. Optionally set `MONGODB_URI` in a `.env` file if not using the default `mongodb://localhost/budget`
+4. Start the server: `npm start` (or `npm run watch` for auto-reload during development)
+5. Visit `http://localhost:3001`
 
 ## License
 
@@ -46,7 +54,6 @@ This project is licensed under the MIT.
 
 Izabela Petrovicova
 
-
 ## Questions
 
-If you have any questions about the repository, contact me directly at i.petrovicova@gmail.com. You can find more of my work at https://github.com/izabelacloud.
+If you have any questions about the repository, contact me directly at i.petrovicova@gmail.com. You can find more of my work at [github.com/izabelacloud](https://github.com/izabelacloud).
